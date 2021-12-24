@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="conttact.css"> -->
+</head>
+<body>
+    <nav>
+        <div class="topnav">
+            <img id="logo" src="logo1.png">
+            <span id="sitename">For Woman </span>
+            <a  id="contact" href="contact.html">Contact Us</a>
+            <a  id="about" href="about.html">About</a>
+            <a  id="home" href="home.html">Home</a>
+    </nav>
+    <div id="divform">
+        <form name="Validatorform">
+            <div id ="div">
+            <table>
+            <tr>
+                  <th>
+                    <label for="Name"> Name </label>
+                  </th>
+                  <td>
+                    <input type="text" name="Name" id="Name"  />
+                  </td>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    <label id ="namevalidate">Name is required</label>
+                </th>
+            </tr>
+            <tr>
+                  <th>
+                    <label for="Email"> Email </label>
+                  </th>
+                  <td>
+                    <input type="text" name="Email" id="Email" />
+                  </td>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    <label id ="emailvalidate">email is not valid</label>
+                </th>
+            </tr>
+            <tr>
+                  <th>
+                    <label for="pass"> Password </label>
+                  </th>
+                  <td>
+                    <input type="password" name="password" id="pass" />
+                  </td>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    <label id ="passwordvalidate">Password must be 8 chars at least</label>
+                </th>
+            </tr>  
+            <tr>
+                <td colspan="2" style="text-align: right">
+                  <button type="submit" id="submit" >contact</button>
+                </td>
+              </tr>     
+        </form>
+    </div>
+    <script src="conyscript.js"></script>
+</body>
+</html>
